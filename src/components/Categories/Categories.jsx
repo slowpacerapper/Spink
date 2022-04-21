@@ -37,6 +37,10 @@ const Categories = ({ search, setSearch }) => {
           >
             <CategoriesImage src={Earbud1} />
           </CategoriesLink>
+          <CategoriesLink href="#comingsoon">N/A</CategoriesLink>
+          <CategoriesLink href="#comingsoon">N/A</CategoriesLink>
+          <CategoriesLink href="#comingsoon">N/A</CategoriesLink>
+          <CategoriesLink href="#comingsoon">N/A</CategoriesLink>
         </CategoriesContent>
       </Container>
     </CategoriesContainer>

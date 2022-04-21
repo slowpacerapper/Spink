@@ -26,8 +26,8 @@ const Nav = () => {
           <NavLinksContainer style={!menu ? null : { top: "-1rem" }}>
             <NavLinks href="/">Home</NavLinks>
             <NavLinks href="/Gadgets">Gadgets</NavLinks>
-            <NavLinks href="#about">About</NavLinks>
-            <NavLinks href="#contact">Contact</NavLinks>
+            <NavLinks href="/About">About</NavLinks>
+            <NavLinks href="/Contact">Contact</NavLinks>
           </NavLinksContainer>
           <CartSection>
             <NavLinks href="/Cart">

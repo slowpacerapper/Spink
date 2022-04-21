@@ -1,4 +1,4 @@
-import React, { useReducer} from "react";
+import React, { useReducer } from "react";
 import { createContext } from "react";
 
 export const Context = createContext();
@@ -69,8 +69,8 @@ const ReducerContext = (props) => {
         return state;
     }
   };
-
-  const [state, dispatch] = useReducer(reducer, []);
+  const initialState = [];
+  const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
     <Context.Provider value={[dispatch, state]}>

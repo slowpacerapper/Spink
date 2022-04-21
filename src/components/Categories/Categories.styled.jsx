@@ -29,6 +29,8 @@ export const CategoriesLink = styled.a`
   height: 100px;
   background-color: #f5f5f5;
   border-radius: 5px;
+  color: black;
+  text-decoration: none;
   /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
   display: flex;
   flex-flow: column;
