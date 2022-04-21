@@ -12,6 +12,7 @@ export const CategoriesContent = styled.div`
   display: grid;
   grid-auto-flow: column;
   margin: 0 auto;
+  justify-items: center;
   width: 100%;
   border-top: 0.5px solid #c5c5c5;
   border-bottom: 0.5px solid #c5c5c5;

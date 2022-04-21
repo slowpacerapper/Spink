@@ -20,8 +20,6 @@ import Headphone20 from "../assets/Images/Headphones/headphone20.png";
 import Earbud1 from "../assets/Images/Earbuds/earbud1.png";
 import Earbud2 from "../assets/Images/Earbuds/earbud2.png";
 import Earbud3 from "../assets/Images/Earbuds/earbud3.png";
-import Earbud4 from "../assets/Images/Earbuds/earbud4.png";
-import Earbud5 from "../assets/Images/Earbuds/earbud5.png";
 import Earbud6 from "../assets/Images/Earbuds/earbud6.png";
 import Earbud7 from "../assets/Images/Earbuds/earbud7.png";
 import Speaker1 from "../assets/Images/Speakers/speaker1.png";

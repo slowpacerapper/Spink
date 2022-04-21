@@ -6,7 +6,7 @@ import { Home } from "./pages";
 import { Gadgets } from "./pages";
 import { Preview } from "./pages";
 import { Cart } from "./pages";
-import { Checkout } from "./pages";
+// import { Checkout } from "./pages";
 import Footer from "./components/Footer/Footer";
 import { ACTIONS, Context } from "./ReducerContext/ReducerContext";
 
@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
     const raw = JSON.parse(localStorage.getItem("cart"));
     dispatch({ type: ACTIONS.REFRESH, payload: raw });
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     localStorage.setItem("cart", JSON.stringify(state));
