@@ -48,6 +48,9 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
+          alert(
+            "Your message was not sent. Please make sure you fill in all the fields and also have an internet connection"
+          );
         }
       );
     e.target.reset();
@@ -73,17 +76,20 @@ const Contact = () => {
             name="fullname"
             placeholder="Full name"
             id="name"
+            required
           />
           <ContactInput
             type="email"
             name="email"
             placeholder="Email Address"
             id="email"
+            required
           />
           <textarea
             name="message"
             id="message"
             placeholder="Message"
+            required
           ></textarea>
           <ContactButton type="submit">
             {!results ? (

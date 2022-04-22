@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.1560cd1f.js",
+    "main.js": "/static/js/main.96c3b98c.js",
     "static/media/earbud1.png": "/static/media/earbud1.2e600ee9a45583779e1e.png",
     "static/media/speaker1.png": "/static/media/speaker1.587a31cccb8996206cc3.png",
     "static/media/headphone11.png": "/static/media/headphone11.cc9e20a22edf51834e22.png",
@@ -45,10 +45,10 @@
     "static/media/headphone20.png": "/static/media/headphone20.8909329e6925e8abd167.png",
     "static/media/headphone1.png": "/static/media/headphone1.b987b5722c5b4ed48044.png",
     "index.html": "/index.html",
-    "main.1560cd1f.js.map": "/static/js/main.1560cd1f.js.map"
+    "main.96c3b98c.js.map": "/static/js/main.96c3b98c.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.1560cd1f.js"
+    "static/js/main.96c3b98c.js"
   ]
 }
